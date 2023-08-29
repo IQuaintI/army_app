@@ -1,22 +1,22 @@
-import '../styles/Home.css'
-import AccordionMenu from '../components/Accordion'
+import "../styles/Home.css";
+import WeaponsMenu from "../components/WeaponsMenu";
+// import { Navbar } from "./components/Navbar";
 
 function Header() {
-    return (
-        <div className="header">
-            <h1>Army WebStudy</h1>
-            <h2>A (Semi) Complete Encyclopedia of Army Trivia</h2>
-        </div>
-    )
+  return (
+    <div className="header">
+      <h1>Army WebStudy</h1>
+      <h2>A (Semi) Complete Encyclopedia of Army Trivia</h2>
+    </div>
+  );
 }
 
-function Home() {
-    return (
-        <>
-        <Header />
-        <AccordionMenu /> 
-        </>
-    )
-    }
-
-export default Home
+export function Home() {
+  return (
+    <>
+      <Header />
+      {/* <Navbar /> */}
+      <WeaponsMenu />
+    </>
+  );
+}

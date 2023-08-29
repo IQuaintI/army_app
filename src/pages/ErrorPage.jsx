@@ -1,16 +1,18 @@
-import { useRouteError } from "react-router-dom";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import "../styles/ErrorPage.css";
 
-export default function ErrorPage() {
-  const error = useRouteError();
-  console.error(error);
-
+export function ErrorPage() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    setTimeout(() => {
+      navigate("/", { state: `Redirected from ` });
+    }, 2000);
+  }, [navigate]);
   return (
-    <div id="error-page">
-      <h1>Oops!</h1>
-      <p>Sorry, an unexpected error has occurred.</p>
-      <p>
-        <i>{error.statusText || error.message}</i>
-      </p>
+    <div className="error">
+      <h1>Error Not Found</h1>
+      <p>Redirecting to Home Page</p>
     </div>
   );
 }
