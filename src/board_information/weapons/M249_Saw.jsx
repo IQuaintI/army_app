@@ -15,7 +15,7 @@ export function M249_Saw() {
         <div className="nav">
           <Button variant="outlined" className="home">
             <Link
-              to="/ "
+              to="/"
               onClick={() => {
                 window.scroll(0, 0);
               }}
