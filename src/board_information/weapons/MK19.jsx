@@ -12,8 +12,7 @@ export function MK19() {
         <div className="head">
           <Heading title="MK19" subtitle="(TC 3-22.19, TC 3-21.76)" />
         </div>
-
-        <div className="sidebar">
+        <div className="big-nav">
           <div className="nav">
             <Button variant="outlined" className="home">
               <Link
@@ -26,43 +25,47 @@ export function MK19() {
               </Link>
             </Button>
             <Flashcard />
+          </div>
+          <div className="sidebar">
             <div className="scroll">
               <Scroll />
             </div>
           </div>
         </div>
       </div>
-      <div className="card">
-        <h2 className="question">Describe the Mark 19 grenade launcher.</h2>
-        <h2 className="answer">
-          The Mark 19 is a 40mm, belt-fed, blowback operated, air-cooled,
-          crew-served, fully automatic weapon that is designed not to cook off
-          and can fire a variety of 40mm grenades.
-        </h2>
-      </div>
-      <div className="card">
-        <h2 className="question">Describe the Mark 19 grenade launcher.</h2>
-        <h2 className="answer">
-          The Mark 19 is a 40mm, belt-fed, blowback operated, air-cooled,
-          crew-served, fully automatic weapon that is designed not to cook off
-          and can fire a variety of 40mm grenades.
-        </h2>
-      </div>
-      <div className="card">
-        <h2 className="question">Describe the Mark 19 grenade launcher.</h2>
-        <h2 className="answer">
-          The Mark 19 is a 40mm, belt-fed, blowback operated, air-cooled,
-          crew-served, fully automatic weapon that is designed not to cook off
-          and can fire a variety of 40mm grenades.
-        </h2>
-      </div>
-      <div className="card">
-        <h2 className="question">Describe the Mark 19 grenade launcher.</h2>
-        <h2 className="answer">
-          The Mark 19 is a 40mm, belt-fed, blowback operated, air-cooled,
-          crew-served, fully automatic weapon that is designed not to cook off
-          and can fire a variety of 40mm grenades.
-        </h2>
+      <div className="cards">
+        <div className="card">
+          <h2 className="question">Describe the Mark 19 grenade launcher.</h2>
+          <h2 className="answer">
+            The Mark 19 is a 40mm, belt-fed, blowback operated, air-cooled,
+            crew-served, fully automatic weapon that is designed not to cook off
+            and can fire a variety of 40mm grenades.
+          </h2>
+        </div>
+        <div className="card">
+          <h2 className="question">Describe the Mark 19 grenade launcher.</h2>
+          <h2 className="answer">
+            The Mark 19 is a 40mm, belt-fed, blowback operated, air-cooled,
+            crew-served, fully automatic weapon that is designed not to cook off
+            and can fire a variety of 40mm grenades.
+          </h2>
+        </div>
+        <div className="card">
+          <h2 className="question">Describe the Mark 19 grenade launcher.</h2>
+          <h2 className="answer">
+            The Mark 19 is a 40mm, belt-fed, blowback operated, air-cooled,
+            crew-served, fully automatic weapon that is designed not to cook off
+            and can fire a variety of 40mm grenades.
+          </h2>
+        </div>
+        <div className="card">
+          <h2 className="question">Describe the Mark 19 grenade launcher.</h2>
+          <h2 className="answer">
+            The Mark 19 is a 40mm, belt-fed, blowback operated, air-cooled,
+            crew-served, fully automatic weapon that is designed not to cook off
+            and can fire a variety of 40mm grenades.
+          </h2>
+        </div>
       </div>
     </>
   );
