@@ -1,9 +1,12 @@
 import Heading from "../../components/Heading";
 import { Button } from "@mui/material";
-import { Link } from "react-router-dom";
+import { Link, Routes } from "react-router-dom";
 import Flashcard from "../../components/Flashcards";
 import Scroll from "../../components/Scroll";
+import AdminRoutes from "../../routes/AdminRoutes";
 import "../../styles/BoardPages.css";
+
+<Routes>{AdminRoutes}</Routes>;
 
 export function MK19() {
   return (
